@@ -1,12 +1,18 @@
 <template>
   <section class="container">
-    <ol>
+    <!-- PROBLEM -->
+
+    <!-- <ol>
       <li>Create two routes: /products and /products/:pid</li>
       <li>Add a button to the main page. The button should navigate (programmatically) to /products</li>
       <li>Add two links to the /products page. The links should go to /products/1 and /products/2</li>
       <li>Output the product id on the /products/:pid page</li>
-    </ol>
+    </ol> -->
+    <nuxt-link to="/products">
+      <button>Products</button>
+    </nuxt-link>
   </section>
+
 </template>
 
 <script>
